@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scoring Board</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Copse&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+     <div class="main-content">
+     <div class="home-content">
+           <h2>HOME</h2>
+           <h3 id="hscore-el">0</h3>
+             <div class="btn">
+                 <button class="score-btn" id="score-btn" onclick="home1()">+1</button>
+                 <button class="score-btn" id="score-btn" onclick="home2()">+2</button>
+                 <button class="score-btn" id="score-btn" onclick="home3()">+3</button>
+             </div>
+     </div>
+     <div class="guest-content">
+           <h2>GUEST</h2>
+           <h3 id="gscore-el">0</h3>
+             <div class="btn">
+                 <button class="score-btn" id="score-btn"  onclick="guest1()">+1</button>
+                 <button class="score-btn" id="score-btn" onclick="guest2()">+2</button>
+                 <button class="score-btn" id="score-btn" onclick="guest3()">+3</button>
+             </div>
+     </div>
+    </div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
